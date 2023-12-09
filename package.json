@@ -1,0 +1,21 @@
+{
+  "name": "dark",
+  "displayName": "DarkLua",
+  "description": "Color theme",
+  "version": "0.0.3",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "DarkLua",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Darklua-color-theme.json"
+      }
+    ]
+  }
+}
