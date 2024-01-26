@@ -1,8 +1,9 @@
 {
-  "name": "dark",
-  "displayName": "DarkLua",
-  "description": "Color theme",
-  "version": "0.0.3",
+  "name": "hspecial",
+  "publisher": "HappySunChild",
+  "displayName": "HsC Theme",
+  "description": "HappySunChild's own homemade color theme extension.",
+  "version": "1.0.5",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -12,9 +13,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "DarkLua",
+        "label": "The HSpecial",
         "uiTheme": "vs-dark",
-        "path": "./themes/Darklua-color-theme.json"
+        "path": "./themes/hspecial-color-theme.json"
       }
     ]
   }
