@@ -5,10 +5,10 @@
 	"displayName": "HappySunChild's Color Theme",
 	"description": "A custom color theme for ME!! ONLY ME!!!",
 
-	"version": "2.4.13",
+	"version": "2.5.7",
 
 	"engines": {
-		"vscode": "^1.85.0"
+		"vscode": "*"
 	},
 	"categories": [
 		"Themes"
@@ -19,19 +19,19 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "H1 Theme",
+				"label": "Dull",
 				"uiTheme": "vs-dark",
-				"path": "./themes/h1-color-theme.json"
+				"path": "./themes/dull-color-theme.json"
 			},
 			{
-				"label": "H2 Theme",
+				"label": "Dull+",
 				"uiTheme": "vs-dark",
-				"path": "./themes/h2-color-theme.json"
+				"path": "./themes/dull-plus-color-theme.json"
 			},
 			{
-				"label": "Latest Theme",
+				"label": "Somber",
 				"uiTheme": "vs-dark",
-				"path": "./themes/h3-color-theme.json"
+				"path": "./themes/somber-color-theme.json"
 			}
 		]
 	}

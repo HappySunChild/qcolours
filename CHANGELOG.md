@@ -79,3 +79,8 @@ new theme actually has set colors for workspace
 ### Changed
 1. function colors to contrast more and stuff yeah idk
 2. changed a lot of colors around,,,
+
+## [2.4.14]
+### Added
+1. Semantic color typing for python modules
+2. that's it lol
