@@ -5,7 +5,7 @@
 	"displayName": "HappySunChild's Color Theme",
 	"description": "A custom color theme for ME!! ONLY ME!!!",
 
-	"version": "2.5.7",
+	"version": "2.5.8",
 
 	"engines": {
 		"vscode": "*"
@@ -29,9 +29,9 @@
 				"path": "./themes/dull-plus-color-theme.json"
 			},
 			{
-				"label": "Somber",
+				"label": "Bluesteel",
 				"uiTheme": "vs-dark",
-				"path": "./themes/somber-color-theme.json"
+				"path": "./themes/bluesteel-color-theme.json"
 			}
 		]
 	}
