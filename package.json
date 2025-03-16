@@ -5,7 +5,7 @@
 	"displayName": "HappySunChild's Color Theme",
 	"description": "A custom color theme for ME!! ONLY ME!!!",
 
-	"version": "0.0.59",
+	"version": "0.0.60",
 
 	"engines": {
 		"vscode": "*"
@@ -19,19 +19,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Dull",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dull-color-theme.json"
-			},
-			{
-				"label": "Dull+",
-				"uiTheme": "vs-dark",
-				"path": "./themes/dull-plus-color-theme.json"
-			},
-			{
 				"label": "Bluesteel",
 				"uiTheme": "vs-dark",
 				"path": "./themes/bluesteel-color-theme.json"
+			},
+			{
+				"label": "Stygian Iron",
+				"uiTheme": "vs-dark",
+				"path": "./themes/stygianiron-color-theme.json"
 			}
 		]
 	}
