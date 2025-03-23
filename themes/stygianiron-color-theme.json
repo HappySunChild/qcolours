@@ -137,11 +137,11 @@
 		"notificationsErrorIcon.foreground":"#e2685d",
 		"notificationsInfoIcon.foreground":"#5ca8ff",
 		
-		"notifications.background":"#161926",
-		"notifications.border":"#373d4b",
+		"notifications.background":"#14161C",
+		"notifications.border":"#101216",
 		"notifications.foreground":"#cdcdcd",
 		
-		"notificationCenter.border":"#373d4b",
+		"notificationCenter.border":"#101216",
 	},
 	"semanticTokenColors": {
 		"property": "#97aaff",

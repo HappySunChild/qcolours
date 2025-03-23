@@ -1,21 +1,16 @@
 {
 	"name": "hspecial",
-
 	"publisher": "HappySunChild",
 	"displayName": "HappySunChild's Color Theme",
 	"description": "A custom color theme for ME!! ONLY ME!!!",
-
-	"version": "0.0.60",
-
+	"version": "0.0.61",
 	"engines": {
 		"vscode": "*"
 	},
 	"categories": [
 		"Themes"
 	],
-
 	"icon": "icon.png",
-
 	"contributes": {
 		"themes": [
 			{
