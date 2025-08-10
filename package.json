@@ -3,7 +3,7 @@
 	"publisher": "HappySunChild",
 	"displayName": "HappySunChild's Color Theme",
 	"description": "A custom color theme for ME!! ONLY ME!!!",
-	"version": "0.0.61",
+	"version": "0.0.62",
 	"engines": {
 		"vscode": "*"
 	},
