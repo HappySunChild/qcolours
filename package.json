@@ -3,7 +3,7 @@
 	"publisher": "HappySunChild",
 	"displayName": "HappySunChild's Color Theme",
 	"description": "A custom color theme for ME!! ONLY ME!!!",
-	"version": "0.0.62",
+	"version": "0.0.67",
 	"engines": {
 		"vscode": "*"
 	},
@@ -22,6 +22,11 @@
 				"label": "Stygian Iron",
 				"uiTheme": "vs-dark",
 				"path": "./themes/stygianiron-color-theme.json"
+			},
+			{
+				"label": "Crate",
+				"uiTheme": "vs-dark",
+				"path": "./themes/crate-color-theme.json"
 			}
 		]
 	}
