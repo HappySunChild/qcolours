@@ -1,26 +1,12 @@
-/*
-	# Regular Colors
-	
-	Background: #14161C
-	Border: #09090c
-	
-	# Token Colors
-	
-	String: #a4d480
-	Character: #bcd9a6 (not strings!! apparently)
-	
-	Functions/methods: #ee707d
-	
-	Keyword: #da95e1
-	Self: #fab7db
-	
-	Parameter: #98abd0
-	Property: #97aaff
-	Constant: #7789f4
-*/
 {
 	"semanticHighlighting": true,
 	"colors": {
+		// BRACKETS
+		"editorBracketHighlight.foreground1": "#db7fa4",
+		"editorBracketHighlight.foreground2": "#5eb8b5",
+		"editorBracketHighlight.foreground3": "#7cbe80",
+		"editorBracketHighlight.foreground4": "#c5bd6e",
+		// MISC
 		"focusBorder": "#2e2f3b",
 		// TITLE BAR
 		"titleBar.activeForeground": "#dedede",
@@ -28,7 +14,7 @@
 		"titleBar.inactiveBackground": "#0c0e12",
 		"titleBar.border": "#09090c",
 		// EDITOR
-		"editor.background": "#14161C",
+		"editor.background": "#15171C",
 		"editor.foreground": "#c7c7c7",
 		"editor.foldBackground": "#7a61880c",
 		"editorLineNumber.foreground": "#666871",
@@ -41,6 +27,8 @@
 		"editorMultiCursor.primary.foreground": "#f6ff00",
 		"editorMultiCursor.secondary.foreground": "#ff5bf1",
 		"editorCursor.foreground": "#ffffff",
+		"editor.wordHighlightBorder": "#5affc08c",
+		"editor.wordHighlightBackground": "#00ff9d13",
 		// TABS
 		"editorGroupHeader.noTabsBackground": "#12131a",
 		"editorGroupHeader.tabsBackground": "#0d0f13",
@@ -48,13 +36,13 @@
 		"tab.activeForeground": "#e1e1e1",
 		"tab.activeBackground": "#14161C",
 		"tab.activeBorder": "#14161C",
-		"tab.activeBorderTop": "#9e85f9",
+		"tab.activeBorderTop": "#4e95ff",
 		"tab.inactiveBackground": "#101217",
 		"tab.hoverBackground": "#17191f",
 		"tab.border": "#09090c",
 		// SIDE BAR
-		"sideBar.background": "#16181F",
-		"sideBar.border": "#0f1015",
+		"sideBar.background": "#17191F",
+		"sideBar.border": "#0D0E12",
 		"sideBarSectionHeader.background": "#20222b",
 		"sideBarSectionHeader.border": "#16181F",
 		// ACTIVITY BAR
@@ -71,7 +59,7 @@
 		"tree.inactiveIndentGuidesStroke": "#40374d",
 		"tree.indentGuidesStroke": "#876e98",
 		// STATUS BAR
-		"statusBar.background": "#3b3458",
+		"statusBar.background": "#4F5061",
 		"statusBar.debuggingBackground": "#eb7730",
 		// "statusBar.border":"#ff0000",
 		// INPUT
@@ -123,39 +111,39 @@
 		"notificationCenter.border": "#101216",
 	},
 	"semanticTokenColors": {
-		"property": "#97aaff",
+		// property or class member
+		"property": "#9db6f7",
 		"property.defaultLibrary": "#f08dbb",
 		"property.defaultLibrary.readonly": "#7789f4",
+		"*.classMember": "#9db6f7",
 		"parameter": "#e1ae7e",
-		"function": "#ee707d",
+		"function": "#F37B87",
 		"function.defaultLibrary": "#ec5e92",
+		"method": "#F37B87",
+		"magicFunction": "#ffc6ac",
+		//
+		"variable.readonly.defaultLibrary": "#D2A6FF",
+		//
 		"enum": "#f56767",
 		"enumMember": "#cb4444",
-		"event": "#ffd572",
-		"module": "#a1efc4",
 		"string": "#a4d480",
 		"character": "#bcd9a6",
 		// self
 		"selfKeyword": "#fab7db",
-		"selfParameter": "#f38888",
+		"selfParameter": "#fcaac5",
 		"selfTypeKeyword": "#fab7db",
 		// Rust (mostly)
 		"namespace:rust": "#9e8eed",
 		"struct:rust": "#73d5b6",
-		"macro:rust": "#fea56e", // macros aren't functions!
+		"macro:rust": "#fea56e",
 		"*.attribute:rust": "#fec864",
 		"attributeBracket:rust": "#ff9e3c",
 		"builtinAttribute:rust": "#ffa220",
 		"keyword.crateRoot:rust": "#eca4a4",
-		"variable.callable:rust": "#ee707d", // essentially just for closures (dynamic functions)
-		// "variable.mutable:rust": {
-		// 	"italic": true
-		// },
-		// "variable.reference:rust": {
-		// 	"underline": true
-		// },
+		"variable.callable:rust": "#F37B87",
 		// Python
-		"class:python": "#bca1f7",
+		"class": "#ffdc7d",
+		"module:python": "#4EC9B0",
 	},
 	"tokenColors": [
 		// FUNDAMENTALS
@@ -169,7 +157,7 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#a4d480"
+				"foreground": "#80d47d"
 			}
 		},
 		{
@@ -189,7 +177,7 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#ff7ab2",
+				"foreground": "#ff7ec9",
 				"fontStyle": ""
 			}
 		},
@@ -215,7 +203,8 @@
 		{
 			"scope": [
 				"variable.other.property",
-				"variable.property.luau"
+				"variable.property.luau",
+				"meta.attribute.python"
 			],
 			"settings": {
 				"foreground": "#97aaff"
@@ -224,11 +213,11 @@
 		// KEYWORDS
 		{
 			"scope": [
+				"storage.type",
 				"storage.modifier",
-				"keyword.local.lua"
 			],
 			"settings": {
-				"foreground": "#88a1f4"
+				"foreground": "#88A1F4"
 			}
 		},
 		{
@@ -240,7 +229,7 @@
 		{
 			"scope": "keyword.operator",
 			"settings": {
-				"foreground": "#da7f7f"
+				"foreground": "#ff7b98"
 			}
 		},
 		{
@@ -268,7 +257,6 @@
 				"foreground": "#ef8986"
 			}
 		},
-		// LANGUAGE
 		{
 			"scope": "constant.language.boolean",
 			"settings": {
@@ -297,7 +285,6 @@
 				"foreground": "#a6bcf0"
 			}
 		},
-		// FUNCTIONS
 		{
 			"scope": [
 				"entity.name.function",
@@ -305,7 +292,7 @@
 				"meta.function-call.generic.python"
 			],
 			"settings": {
-				"foreground": "#ee707d"
+				"foreground": "#F37B87"
 			}
 		},
 		// TYPES
@@ -319,7 +306,7 @@
 			}
 		},
 		{
-			"scope": "storage.type",
+			// "scope": "storage.type",
 			"settings": {
 				"foreground": "#f6778c"
 			}
@@ -334,22 +321,16 @@
 		// Python
 		{
 			"scope": [
-				"punctuation.section"
+				"punctuation.separator.annotation"
 			],
 			"settings": {
-				"foreground": "#c4b78a"
-			}
-		},
-		{
-			"scope": "punctuation.separator.colon.python",
-			"settings": {
-				"foreground": "#f58282"
+				"foreground": "#949494"
 			}
 		},
 		{
 			"scope": "punctuation.separator.period.python",
 			"settings": {
-				"foreground": "#bfd0d6"
+				"foreground": "#bd9f4e"
 			}
 		},
 		// HLSL
