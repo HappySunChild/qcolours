@@ -116,9 +116,9 @@
 		"property.defaultLibrary": "#f08dbb",
 		"property.defaultLibrary.readonly": "#7789f4",
 		"*.classMember": "#9db6f7",
-		"parameter": "#e1ae7e",
+		"parameter": "#f0ccff",
 		"function": "#F37B87",
-		"function.defaultLibrary": "#ec5e92",
+		"function.defaultLibrary": "#f5528d",
 		"method": "#F37B87",
 		"magicFunction": "#ffc6ac",
 		//
@@ -132,6 +132,9 @@
 		"selfKeyword": "#fab7db",
 		"selfParameter": "#fcaac5",
 		"selfTypeKeyword": "#fab7db",
+		// type
+		"namespace": "#dac37a",
+		"type": "#f0d784",
 		// Rust (mostly)
 		"namespace:rust": "#9e8eed",
 		"struct:rust": "#73d5b6",
@@ -197,7 +200,7 @@
 		{
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#e1ae7e"
+				"foreground": "#f0ccff"
 			}
 		},
 		{
@@ -302,7 +305,7 @@
 				"entity.name.type"
 			],
 			"settings": {
-				"foreground": "#fedd7a"
+				"foreground": "#f0d784"
 			}
 		},
 		{
