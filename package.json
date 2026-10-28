@@ -1,9 +1,9 @@
 {
-	"name": "hspecial",
+	"name": "qcolours",
 	"publisher": "HappySunChild",
-	"displayName": "HappySunChild's Color Theme",
-	"description": "A custom color theme for ME!! ONLY ME!!!",
-	"version": "0.0.72",
+	"displayName": "Questionable Colour Schemes",
+	"description": "A collection of colour themes that I personally use while working in VSC.",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "*"
 	},
@@ -16,17 +16,20 @@
 			{
 				"label": "Bluesteel",
 				"uiTheme": "vs-dark",
-				"path": "./themes/bluesteel-color-theme.json"
+				"path": "./themes/bluesteel-color-theme.json",
+				"id": "bluesteel"
 			},
 			{
 				"label": "Stygian Iron",
 				"uiTheme": "vs-dark",
-				"path": "./themes/stygianiron-color-theme.json"
+				"path": "./themes/stygian-iron-color-theme.json",
+				"id": "stygian-iron"
 			},
 			{
-				"label": "Crate",
+				"label": "Pig Iron",
 				"uiTheme": "vs-dark",
-				"path": "./themes/crate-color-theme.json"
+				"path": "./themes/pig-iron-color-theme.json",
+				"id": "pig-iron"
 			}
 		]
 	}
